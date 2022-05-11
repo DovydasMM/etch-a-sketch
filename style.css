@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+#container{
+    background-color: rgb(36, 61, 173);
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.boxes{
+    background-color: rgb(88, 45, 45);
+    border-style: solid;
+    padding: 15px;
+    border-color: black;
+    text-align: center;
+}
+
+.boxes-hover{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 15px;
+    border-color: black;
+    text-align: center;
+}
