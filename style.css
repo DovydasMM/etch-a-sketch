@@ -3,12 +3,13 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(67, 171, 255);
 
 
     
 }
 #container{
-    background-color: rgb(36, 61, 173);
+    background-color: rgb(255, 255, 255);
     height: 960px;
     width: 960px;
     border: 1px solid black;
@@ -18,13 +19,13 @@ body{
 }
 
 .boxes, .hover{
-    background-color: rgb(88, 45, 45);
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
 
 
 }
 .hover{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(21, 255, 0);
 
 }
 
