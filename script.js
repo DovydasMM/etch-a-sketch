@@ -5,7 +5,8 @@ div=document.createElement('div');
 div.classList.add('boxes');
 container.appendChild(div)
 }
-//hoverButton()
+boxFit(amount);
+hoverButton()
 }
 // code for box color change, when hovered
 function hoverButton() {
@@ -16,14 +17,15 @@ if (e.target.classList.contains('boxes')) {
 }
 });
 };
-
-
 //restart button
 const btnRestart = document.querySelector('.reload');
 btnRestart.addEventListener('click',()=> {
     location.reload()
 });
+//function to position boxes correctly
+function boxFit(amount){
+    const boxCount = document.getElementById('container');
+boxCount.style.gridTemplateColumns=`repeat(${amount}, auto)`;
+}
 
-
-boxCreate(10);
-
+boxCreate(64);

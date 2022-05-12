@@ -9,31 +9,21 @@ body{
 }
 #container{
     background-color: rgb(36, 61, 173);
-    padding: 10px;
-    resize: none;
     height: 960px;
     width: 960px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    display:grid;
 
- 
-    
+
 }
 
 .boxes, .hover{
     background-color: rgb(88, 45, 45);
-    flex-grow: 1;
-    border-style: solid;
-    border-width: 0px;
-    border-color: black;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    height: 10%;
-    width: 10%;
-}
+    border: 1px solid black;
 
+
+}
 .hover{
     background-color: rgb(255, 255, 255);
 
