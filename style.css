@@ -11,8 +11,7 @@ body{
     background-color: rgb(36, 61, 173);
     height: 960px;
     width: 960px;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
+    border: 1px solid black;
     display:grid;
 
 
@@ -32,4 +31,9 @@ body{
 .reload{
     display: flex;
     margin-top: 24px;
+}
+
+.input{
+    margin: 64px;
+    font-size: 36px;
 }

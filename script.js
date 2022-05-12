@@ -27,5 +27,12 @@ function boxFit(amount){
     const boxCount = document.getElementById('container');
 boxCount.style.gridTemplateColumns=`repeat(${amount}, auto)`;
 }
+let boxCount = prompt("Įveskite norimą grid'o skaičių (32 bus 32x32, 64 bus 64x64 ir t.t)");
+boxCreate(boxCount);
 
-boxCreate(64);
+const input = document.querySelector('.input');
+input.addEventListener('click', () => {
+    let boxCount = prompt("Įveskite norimą grid'o skaičių (32 bus 32x32, 64 bus 64x64 ir t.t)");
+    location.reload()
+  });
+
